@@ -1,0 +1,13 @@
+body{
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: Contage;
+    src: url("./Fonts/Contage_Regular.ttf");
+}
+
+#faq{
+    font-family: Contage;
+    font-weight: bold;
+}
