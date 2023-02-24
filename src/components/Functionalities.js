@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Functionalities = () => {
   return (
@@ -6,16 +7,16 @@ const Functionalities = () => {
         <div className="flex" style={{display:'inline-block'}}>
         <div className="mt-5">
         <div class="mt-3">
-        <button type="button" class="btn" style={{backgroundColor:'rgba(252, 169, 9, 0.52)',width:'30vw',height:'50px'}}>This is a button</button>
+        <Link type="button" to="/faq" class="btn" style={{backgroundColor:'#FCA909',width:'30vw',height:'45px'}}>Frequently Asked Questions</Link>
         </div>
         <div class="mt-3">
-        <button type="button" class="btn" style={{backgroundColor:'rgba(252, 169, 9, 0.52)',width:'30vw',height:'50px'}}>This is a button</button>
+        <button type="button" class="btn" style={{backgroundColor:'#FCA909',width:'30vw',height:'45px'}}>This is a button</button>
         </div>
         <div class="mt-3">
-        <button type="button" class="btn" style={{backgroundColor:'rgba(252, 169, 9, 0.52)',width:'30vw',height:'50px'}}>This is a button</button>
+        <button type="button" class="btn" style={{backgroundColor:'#FCA909',width:'30vw',height:'45px'}}>This is a button</button>
         </div>
         <div class="mt-3">
-        <button type="button" class="btn" style={{backgroundColor:'rgba(252, 169, 9, 0.52)',width:'30vw',height:'50px'}}>This is a button</button>
+        <button type="button" class="btn" style={{backgroundColor:'#FCA909',width:'30vw',height:'45px'}}>This is a button</button>
         </div>
     </div>
         </div>
