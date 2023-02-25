@@ -5,7 +5,9 @@ const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg" style={{backgroundColor:'#FCA909'}}>
   <div class="container-fluid">
-    <Link class="navbar-brand" to="/">Name</Link>
+    <Link class="navbar-brand" to="/">
+      <img src="https://media.discordapp.net/attachments/1078705696490668092/1078837084426600548/Logo.png" style={{width:'40px',marginLeft:'20px'}} alt="" />
+    </Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -27,7 +29,7 @@ const Navbar = () => {
           <Link class="nav-link active" aria-current="page" href="#">FOOD</Link>
         </li>
         <li class="nav-item mx-3">
-          <Link class="nav-link active" aria-current="page" href="#">MARKETPLACE</Link>
+          <Link class="nav-link active" aria-current="page" to="/marketplace">MARKETPLACE</Link>
         </li>
       </ul>
     </div>

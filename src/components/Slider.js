@@ -16,18 +16,10 @@ export class Slide extends Component {
       <div>
         <Slider {...settings}>
           <div className='d-flex'>
-            <img src="https://m.media-amazon.com/images/I/61bX2AoGj2L._SL1500_.jpg" alt="" style={{width:"40vw",height:"88vh"}} />
-            <div className="slideDetails">
-            <h1 style={{fontFamily:'Lobster'}} className="my-4 display-3">Slider</h1>
-            <a href='#' className="btn btn-light display-5">KnowMore <i className="fa-solid fa-location-arrow"></i></a>
-            </div>
+            <img src="https://cdn.discordapp.com/attachments/1048250927787810836/1078817106428182650/image.png" alt="" style={{width:"92vw",height:"88vh"}} />
           </div>
           <div className='d-flex'>
-            <img src="https://m.media-amazon.com/images/I/61bX2AoGj2L._SL1500_.jpg" alt="" style={{width:"40vw",height:"88vh"}} />
-            <div className="slideDetails">
-            <h1 style={{fontFamily:'Lobster'}} className="my-4 display-3">Slider</h1>
-            <a href='#' className="btn btn-light display-5">KnowMore <i className="fa-solid fa-location-arrow"></i></a>
-            </div>
+            <img src="https://cdn.discordapp.com/attachments/1048250927787810836/1078817913995268146/image.png" alt="" style={{width:"100vw",height:"88vh",padding:'40px'}} />
           </div>
         </Slider>
       </div>
